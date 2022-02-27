@@ -12,7 +12,7 @@ typedef struct SequenceStack {
 int test=1;
 void menu();//主界面
 void InitStack(Stack* stack);//初始化顺序栈
-void insert(Stack* stack, int key);//入栈
+void insert(Stack* stack, char key);//入栈
 void delete_stack(Stack* stack);//出栈
 int judge(Stack* stack, char* temp);//判断题目是否正确
 int main()
