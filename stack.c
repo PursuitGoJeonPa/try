@@ -9,6 +9,7 @@ typedef struct SequenceStack {
 	int size;//记录栈的数据个数
 	int maxsize;//记录栈的最大容量
 }Stack;
+int test=1;
 void menu();//主界面
 void InitStack(Stack* stack);//初始化顺序栈
 void insert(Stack* stack, int key);//入栈
